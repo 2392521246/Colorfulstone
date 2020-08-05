@@ -7,9 +7,8 @@ import net.minecraftforge.fml.common.mod.EventBusSubscriber;
 
 @Mod.EventBusSubscriber(modid = "ColorfulStone")
 public class ItemLoader {
-    //WIP
     public static Item redIngot;
-    public static final CreativeTabs COLORFUL_STONE = new CreativeTabs("example_tab") {
+    public static final CreativeTabs COLORFUL_STONE = new CreativeTabs("colorful_stone") {
     @Override
     public ItemStack createIcon() {
         return new ItemStack(redIngot);
@@ -21,7 +20,6 @@ public class ItemLoader {
     event.getRegistry().registerAll(new Item[]{redIngot});
     }
     private void define(){
-    redIngot = new Item().setRegistryName("colorfulstone:.red_ingot").setCreativeTab(COLORFUL_STONE);
+    redIngot = new Item().setRegistryName("colorfulstone:.red_ingot").setCreativeTab(COLORFUL_STONE).setTranslationKey("colorfulstone.redIngot");
     }
 }
-
