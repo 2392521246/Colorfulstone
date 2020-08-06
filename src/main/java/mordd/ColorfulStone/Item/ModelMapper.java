@@ -1,5 +1,6 @@
 package mordd.ColorfulStone.Item;
 
+import mordd.ColorfulStone.ColorfulStone;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -12,6 +13,9 @@ public final class ModelMapper {
     @SubscribeEvent
     public static void onModelReg(ModelRegistryEvent event) {
         ModelLoader.setCustomModelResourceLocation(ItemLoader.redIngot, 0, new ModelResourceLocation(ItemLoader.redIngot.getRegistryName(), "inventory"));
+        for (int i=0;i<50;i++){
+        ColorfulStone.logger.error("The Event has Loaded! A");
+        }
     }
 }
 
