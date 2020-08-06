@@ -1,9 +1,11 @@
 package mordd.ColorfulStone;
 
-import mordd.ColorfulStone.ColorfulStone;
+import mordd.ColorfulStone.Item.*
 import net.minecraftforge.fml.common.Mod.*;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.*;
+
+
 
 @mod(modid = ColorfulStone.MODID,name = ColorfulStone.NAME,version = ColorfulStone.VERSION,acceptedMinecraftVersions = "[1.12.2]")
 public class ColorfulStone{
