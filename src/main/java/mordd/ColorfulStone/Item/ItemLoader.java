@@ -13,7 +13,7 @@ public class ItemLoader {
     public static Item redIngot;
     public static final CreativeTabs COLORFUL_STONE = new CreativeTabs("colorful_stone") {
     @Override
-    public ItemStack createIcon() {
+    public ItemStack getTabIconItem() {
         return new ItemStack(redIngot);
         }
     };
@@ -22,7 +22,7 @@ public class ItemLoader {
     define();
     event.getRegistry().registerAll(new Item[]{redIngot});
     }
-    private void define(){
+    private static void define(){
     redIngot = new Item().setRegistryName("colorfulstone:red_ingot").setCreativeTab(COLORFUL_STONE).setTranslationKey("colorfulstone.redIngot");
     }
 }
