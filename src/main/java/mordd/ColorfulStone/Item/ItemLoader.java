@@ -23,6 +23,6 @@ public class ItemLoader {
     event.getRegistry().registerAll(new Item[]{redIngot});
     }
     private static void define(){
-    redIngot = new Item().setRegistryName("colorfulstone:red_ingot").setCreativeTab(COLORFUL_STONE).setTranslationKey("colorfulstone.redIngot");
+     redIngot = new Item().setRegistryName("colorfulstone:red_ingot").setCreativeTab(COLORFUL_STONE).setUnlocalizedName("colorfulstone.redIngot");
     }
 }
