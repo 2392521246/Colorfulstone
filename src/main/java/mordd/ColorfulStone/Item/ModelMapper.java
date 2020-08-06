@@ -6,7 +6,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@Mod.EventBusSubscriber(value = Side.CLIENT, modid = "colorfulstone")
+@EventBusSubscriber(value = Side.CLIENT, modid = "colorfulstone")
 public final class ModelMapper {
     @SubscribeEvent
     public static void onModelReg(ModelRegistryEvent event) {
