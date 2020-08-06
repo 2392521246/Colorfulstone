@@ -12,7 +12,7 @@ public class ColorfulStone{
   public static final String MODID = "colorfulstone";
   public static final String NAME = "ColorfulStone";
   public static final String VERSION = "0.1.0";
-  @Instance(MODID)
+  @Mod.Instance(MODID)
   public static ColorfulStone instance;
 
   public ColorfulStone(){
