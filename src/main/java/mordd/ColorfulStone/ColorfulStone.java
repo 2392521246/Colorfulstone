@@ -1,6 +1,6 @@
 package mordd.ColorfulStone;
 
-import mordd.ColorfulStone.Item.*
+import mordd.ColorfulStone.Item.*;
 import net.minecraftforge.fml.common.Mod.*;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.*;
@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.event.*;
 public class ColorfulStone{
   public static final String MODID = "colorfulstone";
   public static final String NAME = "ColorfulStone";
-  public static final String VERSION = "0.1.0"
+  public static final String VERSION = "0.1.0";
   @Instance(MODID)
   public static ColorfulStone instance;
 
