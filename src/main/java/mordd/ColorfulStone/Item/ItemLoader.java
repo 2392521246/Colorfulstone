@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
-@EventBusSubscriber(modid = "ColorfulStone")
+@EventBusSubscriber(modid = "colorfulstone")
 public class ItemLoader {
     public static Item redIngot;
     public static final CreativeTabs COLORFUL_STONE = new CreativeTabs("colorfulstone") {
