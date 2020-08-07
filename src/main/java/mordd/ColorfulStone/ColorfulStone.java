@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.event.*;
 import org.apache.logging.log4j.Logger;
 
 
-@Mod(modid = ColorfulStone.MODID,name = ColorfulStone.NAME,version = ColorfulStone.VERSION,acceptedMinecraftVersions = "[1.12.2]")
+@Mod(modid = ColorfulStone.MODID,name = ColorfulStone.NAME,version = ColorfulStone.VERSION,acceptedMinecraftVersions = "1.12.2")
 public class ColorfulStone{
   public static final String MODID = "colorfulstone";
   public static final String NAME = "ColorfulStone";
