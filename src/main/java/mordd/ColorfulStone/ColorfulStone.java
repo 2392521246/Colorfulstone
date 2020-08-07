@@ -24,7 +24,7 @@ public class ColorfulStone{
   logger.info("start.");
   new ItemLoader();
   new ModelMapper();
-  logger.info("end.")
+  logger.info("end.");
   }
   @EventHandler 
   public void init (FMLInitializationEvent event){}
