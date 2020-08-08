@@ -26,7 +26,7 @@ public final class ModelMapper {
         }
     }
     private void ModelRegistry (Item item){
-        ModelLoader.setCustomModelResourceLocation(item, 0,new ModelResourceLocation(item.getRegistryName(),"inventory"))
+        ModelLoader.setCustomModelResourceLocation(item, 0,new ModelResourceLocation(item.getRegistryName(),"inventory"));
    }
 }
 
