@@ -22,10 +22,10 @@ public final class ModelMapper {
         ModelRegistry(ItemLoader.blueIngot);
         ModelRegistry(ItemLoader.purpleIngot);
         for (int i=0;i<50;i++){
-        ColorfulStone.logger.error("The Event has Loaded! A");
+        ColorfulStone.logger.error("The Event has Loaded! A1");
         }
     }
-    private void ModelRegistry (Item item){
+    private static void ModelRegistry (Item item){
         ModelLoader.setCustomModelResourceLocation(item, 0,new ModelResourceLocation(item.getRegistryName(),"inventory"));
    }
 }
