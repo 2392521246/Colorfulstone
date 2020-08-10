@@ -1,1 +1,15 @@
-
+[
+    {
+        "modid": "colorfulstone",
+        "name": "ColorfulStone",
+        "description": "ColorfulStone!",
+        "url":"",
+        "authorList": ["mordd,Ti_Mo"],
+        "credits": "Forge guys",
+        "logoFile": "",
+        "screenshots": [],
+        "useDependencyInformation": true,
+        "requiredMods": [],
+        "dependencies": []
+    }
+]

@@ -1,7 +1,6 @@
 package mordd.ColorfulStone.Item;
 
-import mordd.ColorfulStone.Block.BlockLoader;
-import net.minecraft.block.Block;
+import mordd.ColorfulStone.ColorfulStone;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
@@ -22,21 +21,12 @@ public final class ModelMapper {
         ModelRegistry(ItemLoader.cyanIngot);
         ModelRegistry(ItemLoader.blueIngot);
         ModelRegistry(ItemLoader.purpleIngot);
-        
-
-        ModelRegistry(BlockLoader.redBlock);
-        ModelRegistry(BlockLoader.orangeBlock);
-        ModelRegistry(BlockLoader.yellowBlock);
-        ModelRegistry(BlockLoader.greenBlock);
-        ModelRegistry(BlockLoader.cyanBlock);
-        ModelRegistry(BlockLoader.blueBlock);
-        ModelRegistry(BlockLoader.purpleBlock);     
+        for (int i=0;i<50;i++){
+        ColorfulStone.logger.error("The Event has Loaded! A");
+        }
     }
     private static void ModelRegistry (Item item){
-        ModelLoader.setCustomMopdelResourceLocation(item, 0,new ModelResourceLocation(item.getRegistryName(),"inventory"));
-   }
-    private static void ModelRegistry (Block block){
-        ModelLoader.setCustomMopdelResourceLocation(Item.getItemFromBlock(block), 0,new ModelResourceLocation(block.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(item, 0,new ModelResourceLocation(item.getRegistryName(),"inventory"));
    }
 }
 
