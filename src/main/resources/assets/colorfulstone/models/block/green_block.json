@@ -1,0 +1,6 @@
+{ 
+"parent": "block/cube_all",
+ "textures":{ 
+"all": "colorfulstone:blocks/green_block"
+     } 
+ } 
