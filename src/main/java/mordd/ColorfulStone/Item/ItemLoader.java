@@ -28,9 +28,9 @@ public class ItemLoader {
     public static void registerItem(RegistryEvent.Register<Item> event) {
     define();
     event.getRegistry().registerAll(new Item[]{redIngot,orangeIngot,yellowIngot,
-     greenIngot,cyanIngot,blueIngot,
-     purpleIngot
-   });
+       greenIngot,cyanIngot,blueIngot,
+       purpleIngot
+    });
     for (int i=0;i<50;i++){
     ColorfulStone.logger.error("The Event has Loaded!");
     }
