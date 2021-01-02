@@ -1,6 +1,12 @@
 { 
-"parent": "block/cube_all",
- "textures":{ 
-"all": "colorfulstone:blocks/red_block"
+"parent": "block/cube",
+ "textures":{ 	
+		"particle": "colorfulstone:blocks/red_block",
+		 "down": "colorfulstone:blocks/red_block",
+        "up":  "colorfulstone:blocks/red_block",
+        "north": "colorfulstone:blocks/red_block",
+        "east":  "colorfulstone:blocks/red_block",
+        "south":  "colorfulstone:blocks/red_block",
+        "west": "colorfulstone:blocks/red_block"
      } 
  } 

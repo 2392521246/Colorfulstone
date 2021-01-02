@@ -1,4 +1,4 @@
-{ "parent": "colot:block/grass_block", 
+{ "parent": "colorfulstone:block/red_block", 
 "display": { 
 "thirdperson": { 
 "rotation": [ 10, -45, 170 ], 
